@@ -12,7 +12,7 @@ function FormatTime(t)
 	for _,i in t_ do
 		v=/i[1]
 		if v > 1 then
-			s..=(v%i[1])..i[2]
+			s..=math.floor(v%i[1])..i[2]
 		end
 	end
 
